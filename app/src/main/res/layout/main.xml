@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90CCFE"
+    android:backgroundTint="#90CCFE"
+    tools:context=".Main">
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="331dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#143FB6"
+        android:text="ВОЙТИ"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/go3"
+        android:layout_width="331dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#FEFEFE"
+        android:text="Отделения и банкоматы"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/go1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="left"
+        android:paddingLeft="70dp"
+        android:paddingTop="30dp"/>
+
+    <Button
+        android:id="@+id/go1"
+        android:layout_width="331dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="360dp"
+        android:backgroundTint="#FEFEFE"
+        android:gravity="left"
+        android:onClick="Login"
+        android:paddingLeft="70dp"
+        android:paddingTop="20dp"
+        android:text="Курсы валют"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="420dp"
+        android:text="@string/date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="51dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="380dp"
+        android:gravity="center"
+        android:text="USD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="51dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="380dp"
+        android:gravity="center"
+        android:text="EUR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="40dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="380dp"
+        android:gravity="center"
+        android:text="@string/USD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="40dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="380dp"
+        android:gravity="center"
+        android:text="@string/EUR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
